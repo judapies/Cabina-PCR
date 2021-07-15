@@ -1,0 +1,192 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016.0   estadouv
+016.1   estadofl
+016.2   estadomv
+016.3   Flanco
+016.4   Flanco1
+016.5   tiempo_cumplido
+016.6   Lectura
+016.7   flaguv
+017.0   flagfl
+017.1   estadobuzzer
+017.2   infinito
+017.3   Cambio
+018     Menu
+019     Flecha
+01A     Flecha2
+01B     segundos
+01C     minutos
+01D     horasL
+01E     horasH
+01F     tempo_minutos
+020     tempo_segundos
+021     tempo_minutos_pro
+022     tempo_segundos_pro
+023     i
+024     tiemporeset
+025     guardaruv
+026     paso
+027     ActivaBuzzer
+028-029 tiempos
+02A-02B horas
+02C     lcdline
+02D-02E @PRINTF_LU_260.P1
+02D     @PRINTF_U_260.P2
+02D     lcd_init.i
+02D     @PSTRINGCN_260.P1
+02D     MensajeBienvenida.@SCRATCH1
+02D     @PSTRINGC_260.@SCRATCH1
+02D     LeeEEPROM.@SCRATCH1
+02D     resetFabrica.@SCRATCH1
+02D     MAIN.@SCRATCH1
+02E     @PRINTF_U_260.P1
+02E     lcd_init.@SCRATCH1
+02E     @PSTRINGC_260.@SCRATCH2
+02E     @PSTRINGCN_260.@SCRATCH1
+02F     @DIV88.P1
+02F     @PSTRINGCN_260.@SCRATCH2
+02F     @PRINTF_LU_260.@SCRATCH1
+030     @DIV88.P1
+030     @PRINTF_LU_260.@SCRATCH2
+031     @DIV88.@SCRATCH1
+031     @PRINTF_LU_260.@SCRATCH3
+032     @PRINTF_LU_260.@SCRATCH4
+033     @PRINTF_LU_260.@SCRATCH5
+034     @PRINTF_LU_260.@SCRATCH6
+035     @PRINTF_LU_260.@SCRATCH7
+036     lcd_putc.c
+037     lcd_gotoxy.x
+038     lcd_gotoxy.y
+039     lcd_gotoxy.address
+03A     lcd_send_byte.address
+03B     lcd_send_byte.n
+03C     @delay_ms1.P1
+03C     lcd_send_byte.@SCRATCH1
+03D     lcd_send_nibble.n
+03E     temp1s.@SCRATCH1
+03F     temp1s.@SCRATCH2
+F83     PSP_DATA
+F83     lcd
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PROGRAM_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+02D6  @delay_ms1
+0096  LCD_INIT_STRING
+02FE  lcd_send_nibble
+0324  lcd_send_byte
+0366  lcd_init
+03D2  lcd_gotoxy
+0408  @goto10581
+0434  lcd_putc
+03BC  ConfigInterrupciones
+04B2  MensajeBienvenida
+00B4  @const268
+0492  @PSTRINGC_260
+00CA  @const270
+00E0  @const271
+00F6  @const272
+0516  LeeEEPROM
+05B4  LimitaValores
+06E4  resetFabrica
+010C  @const277
+011C  temp1s
+095E  MAIN
+0184  @const281
+019A  @const282
+01B0  @const283
+07FE  @DIV88
+0826  @PRINTF_U_260
+088C  @PSTRINGCN_260
+01C0  @const293
+01D4  @const294
+01E8  @const296
+01FA  @const297
+020C  @const299
+0212  @const300
+08AA  @PRINTF_LU_260
+0226  @const303
+0236  @const304
+0246  @const305
+025E  @const307
+0274  @const308
+028A  @const309
+02A0  @const310
+02B6  @const314
+02BE  @const315
+02C6  @const316
+02CE  @const317
+095E  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\Laboratorio\Cabina de PCR\2020\CPCR Trabajo Labserving D4X20 #0045882XX OP2020223\Firmware\
+
+Project Files:
+    CabinaCFLH.c
+    C:\Program Files (x86)\PICC\Devices\18F4550.h
+    MATH.h
+    LCD420.c
+    Funciones.h
+
+Units:
+    D:\Laboratorio\Cabina de PCR\2020\CPCR Trabajo Labserving D4X20 #0045882XX OP2020223\Firmware\CabinaCFLH (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      CabinaCFLH.err
+    Ext Symbols: CabinaCFLH.esym
+    INHX32:      CabinaCFLH.hex
+    Symbols:     CabinaCFLH.sym
+    List:        CabinaCFLH.lst
+    Debug/COFF:  CabinaCFLH.cof
+    Project:     CabinaCFLH.PJT
+    Call Tree:   CabinaCFLH.tre
+    Statistics:  CabinaCFLH.sta

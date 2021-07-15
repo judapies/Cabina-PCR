@@ -1,0 +1,11 @@
+>>> Warning 202 "Maestro_v2.c" Line 33(114,125): Variable never used:   flag_alarma
+>>> Warning 202 "Maestro_v2.c" Line 38(26,35): Variable never used:   Downflowt
+>>> Warning 202 "Maestro_v2.c" Line 39(58,65): Variable never used:   Perdida
+>>> Warning 202 "Maestro_v2.c" Line 55(18,26): Variable never used:   Downflow
+>>> Warning 202 "Maestro_v2.c" Line 56(31,41): Variable never used:   x_cuadrado
+>>> Warning 202 "Maestro_v2.c" Line 56(46,52): Variable never used:   x_cubo
+>>> Warning 202 "D:\Laboratorio\Cabina de PCR\2020\CPCR60 GLCD CEMMIT  #004588404 OP2020359\Firmware - 18F4620 -MPXV5004GV\Funciones.h" Line 3(10,12): Variable never used:   VG
+>>> Warning 202 "D:\Laboratorio\Cabina de PCR\2020\CPCR60 GLCD CEMMIT  #004588404 OP2020359\Firmware - 18F4620 -MPXV5004GV\Funciones.h" Line 3(17,19): Variable never used:   VS
+>>> Warning 202 "D:\Laboratorio\Cabina de PCR\2020\CPCR60 GLCD CEMMIT  #004588404 OP2020359\Firmware - 18F4620 -MPXV5004GV\Funciones.h" Line 3(24,26): Variable never used:   G2
+      Memory usage:   ROM=64%      RAM=38% - 40%
+      0 Errors,  9 Warnings.
